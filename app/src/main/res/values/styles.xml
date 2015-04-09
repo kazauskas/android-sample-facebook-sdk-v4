@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="btn_facebook_action">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="btn_facebook_action.get_friends">
+        <item name="android:text">Log Friends</item>
+        <item name="android:layout_above">@id/btn_fb_share</item>
+        <item name="android:background">#2ecc71</item>
+    </style>
+
+    <style name="btn_facebook_action.share">
+        <item name="android:text">Share</item>
+        <item name="android:layout_above">@id/btn_fb_invite_friends</item>
+        <item name="android:background">#c0392b</item>
+    </style>
+
+    <style name="btn_facebook_action.invite">
+        <item name="android:background">#34495e</item>
+        <item name="android:text">Invite Friends</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="btn_facebook_action.login">
+        <item name="android:background">#2980b9</item>
+        <item name="android:text">Login with Facebook</item>
+        <item name="android:layout_above">@id/btn_fb_get_friends</item>
+    </style>
+
+
+</resources>
